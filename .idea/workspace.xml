@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe245b3-b077-4b5e-bf0d-fdea94698202" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/config-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/consumerA-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/consumerA-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/consumerA.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application-server1.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application-server1.properties.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer2-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer2-dev.properties.bak" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-repo/consumerA.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -32,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-repo/application.yml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config-repo/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -44,8 +41,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-repo/consumerA-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="255">
+              <caret line="15" column="20" lean-forward="true" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-repo/consumer-service-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" selection-start-line="33" selection-end-line="34" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -69,8 +75,10 @@
       <list>
         <option value="$PROJECT_DIR$/config-repo/application.yml" />
         <option value="$PROJECT_DIR$/config-repo/consumerA.yml" />
-        <option value="$PROJECT_DIR$/config-repo/consumerA-dev.yml" />
         <option value="$PROJECT_DIR$/config-repo/consumerA-prod.yml" />
+        <option value="$PROJECT_DIR$/config-repo/consumer-service-dev.yml" />
+        <option value="$PROJECT_DIR$/config-repo/consumerA-dev.yml" />
+        <option value="$PROJECT_DIR$/config-repo/config.yml" />
       </list>
     </option>
   </component>
@@ -144,12 +152,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588285920962</updated>
-      <workItem from="1588285922288" duration="576000" />
+      <workItem from="1588285922288" duration="2471000" />
     </task>
+    <task id="LOCAL-00001" summary="配置文件提交">
+      <created>1588286515158</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588286515158</updated>
+    </task>
+    <task id="LOCAL-00002" summary="配置文件提交">
+      <created>1588287912920</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588287912920</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="576000" />
+    <option name="totallyTimeSpent" value="2471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -188,21 +211,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="配置文件提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件提交" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config-repo/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-repo/consumerA-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-repo/consumerA-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -214,6 +227,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-repo/consumer-service-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="34" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-repo/consumerA-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="true" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-repo/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,24 @@
+eureka:
+  instance:
+    prefer-ip-address: false
+  client:
+    enabled: true
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:8761/eureka/
+  #设置tomcat服务端口号
+server:
+  port: 8763
+#设置服务名称
+spring:
+  application:
+    name: confige
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/IvenYan/config-server.git
+          #          https://github.com/IvenYan/{application}
+          search-paths: config-repo
+          username: yankun_smile@sina.com  #账号密码写真实的快一些我觉得，不使用也能访问有点慢
+          password: yk1309602166
