@@ -1,0 +1,40 @@
+eureka:
+  instance:
+    prefer-ip-address: false
+  client:
+    enabled: true
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:8761/eureka/
+  #设置tomcat服务端口号
+server:
+  port: 11001
+#设置服务名称
+spring:
+  application:
+    name: consumerA
+  # Redis数据库索引（默认为0）
+  cloud:
+    config:
+      uri: http://localhost:8763/        #Config server的uri
+      profile: dev                       #指定的环境
+      label: master                      #指定分支
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password: inxedu
+    timeout: 1000
+    pool:
+      max-active: 200
+      max-wait: -1
+      max-idle: 10
+      min-idle: 0
+  # Redis服务器地址
+  # Redis服务器连接端口
+  # Redis服务器连接密码（默认为空）
+  # 连接池最大连接数（使用负值表示没有限制）
+  # 连接池最大阻塞等待时间（使用负值表示没有限制）
+  # 连接池中的最大空闲连接
+  # 连接池中的最小空闲连接
+  # 连接超时时间（毫秒）
