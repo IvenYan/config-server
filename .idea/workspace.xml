@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fbe245b3-b077-4b5e-bf0d-fdea94698202" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-repo/consumerA-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/consumerA-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/consumerA-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/consumerA-dev.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,20 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config-repo/consumerA-prod.yml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-repo/consumerA.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+            <state relative-caret-position="238">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-repo/consumerA-prod.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config-repo/consumerA-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="107">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -65,8 +74,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -83,6 +90,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,7 +131,8 @@
       <option name="presentableId" value="Default" />
       <updated>1588285920962</updated>
       <workItem from="1588285922288" duration="3083000" />
-      <workItem from="1588521035401" duration="108000" />
+      <workItem from="1588521035401" duration="1057000" />
+      <workItem from="1588606908261" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="配置文件提交">
       <created>1588286515158</created>
@@ -145,17 +155,24 @@
       <option name="project" value="LOCAL" />
       <updated>1588288820640</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="配置文件提交">
+      <created>1588521255329</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588521255329</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3191000" />
+    <option name="totallyTimeSpent" value="4153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -193,13 +210,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="配置文件提交" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config-repo/consumerA.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-repo/consumer-service-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -214,17 +224,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-repo/consumerA-dev.yml">
+    <entry file="file://$PROJECT_DIR$/config-repo/consumerA.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="238">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config-repo/consumerA-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        <state relative-caret-position="238">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-repo/consumerA-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>

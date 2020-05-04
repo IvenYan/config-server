@@ -19,6 +19,11 @@ spring:
       uri: http://localhost:8763/        #Config server的uri
       profile: dev                       #指定的环境
       label: master                      #指定分支
+      server:
+        git:
+          uri: https://github.com/IvenYan/config-server.git
+          clone-on-start: true
+          search-paths: config-repo
   redis:
     database: 0
     host: localhost
@@ -30,9 +35,6 @@ spring:
       max-wait: -1
       max-idle: 10
       min-idle: 0
-
-eos:
-  appid: 123
   # Redis服务器地址
   # Redis服务器连接端口
   # Redis服务器连接密码（默认为空）
@@ -41,3 +43,9 @@ eos:
   # 连接池中的最大空闲连接
   # 连接池中的最小空闲连接
   # 连接超时时间（毫秒）
+  management:
+    security:
+      enabled: false     #SpringBoot 1.5.X 以上默认开通了安全认证，如果不关闭会要求权限
+
+eos:
+  appid: 123
